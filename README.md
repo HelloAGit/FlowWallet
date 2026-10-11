@@ -64,10 +64,10 @@ It is designed to feel like a modern fintech app, not a crypto trading terminal.
 ```bash
 npm install
 cp .env.example .env.local
-npm run dev
+npm run dev -- --port 3001
 ```
 
-Open http://localhost:3000.
+Open http://127.0.0.1:3001/.
 
 ## Repository details
 
